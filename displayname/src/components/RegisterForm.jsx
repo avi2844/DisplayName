@@ -24,7 +24,7 @@ function RegisterForm(){
         <button type="submit">Submit</button>
         </form>
         {
-            (showName) ? <span>Full Name : {data.fname} {data.lname}</span> : null
+            (showName) ? <span>Full Name: {data.fname} {data.lname}</span> : null
         }
         </>
     )
